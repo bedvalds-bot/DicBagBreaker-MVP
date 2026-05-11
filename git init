@@ -1,0 +1,42 @@
+pricecitadel-mvp/
+├── .github/
+│   └── workflows/          # CI: lint, test, build (Android/iOS)
+│       └── ci.yml
+├── android/                # Native Android (auto-generated)
+├── ios/                    # Native iOS (auto-generated)
+├── src/
+│   ├── app/                # App entry + navigation (React Navigation)
+│   │   ├── screens/
+│   │   │   ├── HomeScreen.tsx
+│   │   │   ├── ScannerScreen.tsx       ← CORE MVP
+│   │   │   ├── ResultsScreen.tsx
+│   │   │   └── DashboardScreen.tsx
+│   │   ├── components/
+│   │   │   ├── CameraOverlay.tsx
+│   │   │   ├── PriceCard.tsx
+│   │   │   └── SentinelButton.tsx
+│   │   └── navigation/
+│   │       └── AppNavigator.tsx
+│   ├── lib/
+│   │   ├── ocr.ts          ← ML Kit frame processor
+│   │   ├── supabase.ts     ← Anonymous client + upload
+│   │   ├── location.ts
+│   │   └── priceParser.ts  ← Regex + heuristics for "$12.99" etc.
+│   └── types/
+│       └── index.ts
+├── __tests__/
+├── assets/                 # Icons, splash (dark cyber theme)
+├── supabase/               # Local Supabase config (optional self-host)
+│   └── migrations/
+├── .env.example
+├── .gitignore
+├── App.tsx
+├── app.json
+├── babel.config.js
+├── metro.config.js
+├── package.json
+├── tsconfig.json
+├── README.md
+├── CONTRIBUTING.md         ← Full guide below
+├── LICENSE (MIT)
+└── yarn.lock / package-lock.json
