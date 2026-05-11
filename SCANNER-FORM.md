@@ -2,7 +2,7 @@
 
 ## Submit Digital Price Tags Here
 
-**Google Form Link** (Temporary Scanner):
+→ **[Submit Price Tag Here](https://docs.google.com/forms/d/e/1FAIpQLSckzvZXWF2gLK8ibHvW5ukJX5dEquBMIx2ZPqPOsOuFfngR4Q/viewform)**
 
 → [Paste your Google Form link here]
 
